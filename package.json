@@ -1,0 +1,35 @@
+{
+  "name": "morseapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Main.js",
+  "devDependencies": {
+    "pkg": "^5.3.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "pkg --targets win . --out-path dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladimirMatos/MorseApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VladimirMatos/MorseApp/issues"
+  },
+  "homepage": "https://github.com/VladimirMatos/MorseApp#readme",
+  "dependencies": {
+    "npm-morsecode-vladi": "^1.0.0",
+    "readline": "^1.3.0",
+    "readline-sync": "^1.4.10"
+  },
+  "bin": {
+    "ttm": "./Main.js"
+  },
+  "pkg": {
+    "scripts": "./Main.js"
+  }
+}
